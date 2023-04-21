@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- top navigation -->
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+
+    <!-- main content -->
+    <div class="flex-container">
+
+        <!-- left column -->
+        <div class="col-l">
+
+            <!--this is a placeholder replace it with a real video
+            <figure class="placeholder">
+                <svg style="text-anchor:middle;" width="720" height="400" xmlns="assets/pexels-rodnae-productions-8475052-1080x1920-30fps.mp4" role="img" aria-label="Placeholder: 720x400" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>To the Great Beyond</title>
+                    <rect width="100%" height="100%" fill="#868e96"></rect>
+                    <text x="50%" y="50%" dy=".3em" fill="#dee2e6" >Astronaut with Flag</text>
+                </svg>
+            </figure>-->
+
+
+            <video src="assets/pexels-cottonbro-studio-6636083-226x426-25fps.mp4" width="400" controls muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
+
+            <!-- video info -->
+            <div class="row">
+                <div class="start">
+                    <h1>To the Great Beyond</h1>
+                    <h3>1.3K Views | June, 18, 2021</h3>
+                    <div class="user">
+                        <img src="assets/Screenshot 2023-04-04 155504.png" alt="user-circle" class="avatar-s">
+                        <span class="user-name">Rindy Fisk</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="col-r">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <video src="assets/pexels-rodnae-productions-8475052-360x640-30fps.mp4" width="200" controls muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo"></video>
+                <span class="video-title"> Look Maw, I can bathe too!!</span>
+            </div>
+
+            <div class="video-small">
+                <video src="assets/pexels-roman-odintsov-6897895-226x426-30fps.mp4" width="200" controls muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
+                <span class="video-title"> Breaking News: Eggs, The New Fashion Trend?</span>
+            </div>
+
+            <div class="video-small">
+                <video src="assets/pexels-ron-lach-9155064-338x640-25fps.mp4" width="200" controls muted loop onmouseover="playvideo(this)" onmouseout="pauseVideo(this)"></video>
+                <span class="video-title"> A safety shower/eyewash station Instructional Video Series</span>
+            </div>
+
+            <div class="video-small">
+                <video src="assets/pexels-mart-production-9565177-338x640-25fps.mp4" width="200" controls muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo"></video>
+                <span class="video-title"> You put your hand upon my hip, when you dip, I dip, We dip..</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
