@@ -1,0 +1,68 @@
+#wrapper {
+    margin: 0px auto;
+    padding: 0px;
+    width: 1000px;
+    background-color: darkgray;
+    font-family: 'Laila', sans-serif;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+#nav button {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 16pt;
+    background-color: rgb(10, 131, 252);
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
+#main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.output {
+    width: 50%;
+    justify-content: space-between;
+}
+
+.japanese {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.programmer {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.input {
+    width: 30%;
+    display: inline-block;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 250px;
+    margin-left: 20px;
+}
+
+.input h3 {
+    align-items: center;
+}
