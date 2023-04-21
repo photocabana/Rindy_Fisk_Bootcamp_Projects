@@ -1,2 +1,2 @@
-# Photocabana_Rindy_Fisk
- Photocabana_Rindy_Fisk
+# Rindy_Fisk_Bootcamp_Projects
+ Rindy_Fisk_Bootcamp_Projects
