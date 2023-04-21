@@ -1,0 +1,21 @@
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    text-align:left
+}
+h2 {  
+    background-color: rebeccapurple;
+    color: blanchedalmond;
+    text-align:center
+}
+h2 {
+    font-style: italic
+}
+h3 {
+    background-color:cornflowerblue;
+    color: midnightblue;
+    text-align:right
+}
+h3 {
+    text-decoration: underline;
+  }
