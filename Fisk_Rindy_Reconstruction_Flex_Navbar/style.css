@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+.nav {
+    background-color: #333333;
+    color: aliceblue;
+    height: 80px;
+    width: 960px;
+    display: flex;    /*FLEX*/
+    align-items: center;  /*spaces evenly top to bottom*/
+    justify-content: space-between;
+}
+.nav-links {
+    width: 50%;
+    display: flex;     /*FLEX*/
+    align-items: center;   /*spaces evenly top to bottom*/
+    list-style-type: none;  /*gets rid of bullet points in hyperlinks*/
+    justify-content: space-around;
+}
+a{           /*This changes the hyperlink blue to whatever color*/
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav-title {    /*Moving over the Profile Title*/
+    margin-left: 20px;
+}
+.btn {   /*button*/
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: aliceblue;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+
+/*if more than one ancor tag - be specific - .nav a
+.nav a{           
+    color: aliceblue;
+    text-decoration: none;
+}
+*/
