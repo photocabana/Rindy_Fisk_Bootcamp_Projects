@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+
+        <!--navbar-->
+
+        <div id="nav">
+            <h1>DojoWeather</h1>
+            <ul class="cities">
+                <li onclick="loading_report()"><a href="#">Burbank</a></li>
+                <li onclick="loading_report()"><a href="#">Chicago</a></li>
+                <li onclick="loading_report()"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+
+        <!--Body of Forcast page-->
+
+        <div id="town_forcast">
+
+            <!--town top-->
+
+            <div class="town_banner">
+                <h2>San Jose</h2>
+                <form>
+                    <p>show temperature in</p>
+                    <select name="celsius_fahrenheit" onchange="temp_select(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </form>
+            </div>
+
+            <!--Days-->
+
+            <div class="forcast_columns">
+                <div class="forcast">
+                    <h2>Today</h2>
+                    <img src="assets/some_rain.png" alt="some_rain">
+                    <p>some rain</p>
+                    <p class="degrees">
+                        <span class="top_temp" id="temp1">24</span>
+                        <span class="low_temp" id="temp2">18</span>
+                    </p>
+                </div>
+                <div class="forcast">
+                    <h2>Tomorrow</h2>
+                    <img src="assets/some_sun.png" alt="some_sun">
+                    <p>some sun</p>
+                    <p class="degrees">
+                        <span class="top_temp" id="temp3">27</span>
+                        <span class="low_temp" id="temp4">19</span>
+                    </p>
+                </div>
+                <div class="forcast">
+                    <h2>Friday</h2>
+                    <img src="assets/some_clouds.png" alt="some_clouds">
+                    <p>some clouds</p>
+                    <p class="degrees">
+                        <span class="top_temp" id="temp5">21</span>
+                        <span class="low_temp" id="temp6">16</span>
+                    </p>
+                </div>
+                <div class="forcast">
+                    <h2>Saturday</h2>
+                    <img src="assets/some_sun.png" alt="some_sun">
+                    <p>some sun</p>
+                    <p class="degrees">
+                        <span class="top_temp" id="temp7">26</span>
+                        <span class="low_temp" id="temp8">21</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--POP UP Alert-->
+
+    <div id="popup">
+        <div class="cookiePopup">
+            <img src="assets/cookie.png" alt="policy">
+            <div class="notice">
+                <h3> STOP!!!! Cookie Time!!!!</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more... </a></p>
+            </div>
+            <button class="popup_button" onclick="accept()">Accept</button>
+        </div>
+    </div>
+</body>
+</html>

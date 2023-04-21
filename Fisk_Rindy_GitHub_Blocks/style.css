@@ -1,0 +1,44 @@
+#wrapper{
+    width: 780px;
+    background-color: white;
+    padding: 50px;
+    margin: 0px auto;
+    border: 10px solid white;
+}
+h1{
+    text-align: center;
+    font-size: 35pt;
+    font-weight: bolder;
+    color: rgb(54, 60, 65);
+}
+.blue{
+    background-color: aqua;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border: 10px solid white;
+}
+.pink{
+    background-color: orchid;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 10px solid white;
+}
+.white{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border: 10px solid white;
+}
+.github{
+    width: 780px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: flex;
+}

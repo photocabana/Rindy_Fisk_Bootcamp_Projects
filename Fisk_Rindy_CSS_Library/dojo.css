@@ -1,0 +1,90 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    
+
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*Navbar*/
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+.nav {
+    background-color: #333333;
+    color: aliceblue;
+    height: 80px;
+    width: 960px;
+    display: flex;    
+    align-items: center; 
+    justify-content: space-between;
+}
+.nav-links {
+    width: 50%;
+    display: flex;    
+    align-items: center;   
+    list-style-type: none;  
+    justify-content: space-around;
+}
+a{          
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav-title {   
+    margin-left: 20px;
+}
+.btn {   
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: aliceblue;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+
+/* .btn  */
+.btn-search {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.btn-search { 
+    font-weight: 900;
+    width: 100px;
+    border-radius: 20 px;
+    color: #7dc8c8;
+    border: 2pm solid #7dc8c8;
+    background-color: #fff;
+}
+
+
+/*Flex-ible Columns*/
+.row{
+    display: flex;
+}
+.col, .col-2, .col-3{
+    margin: 10px;
+    padding: 10px;
+    background-color: cyan;
+    flex: 1;
+}
+.col-2{
+    flex: 2;
+}
+.col-3{
+    flex: 3;
+}
+
+
+
