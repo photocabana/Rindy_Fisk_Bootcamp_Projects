@@ -1,0 +1,202 @@
+html {
+    background-color: rgb(103, 124, 143);
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/*Header Section*/
+#header {
+    background-color: rgb(62, 65, 67);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.header_title { 
+    color: aliceblue;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px 20%;
+}
+
+span {   /*Change size of Profile in header*/
+    font-size: 34pt;
+}
+
+a {    /*Change styling of links in header*/
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+button {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 16pt;
+    background-color: rgb(10, 131, 252);
+    color: aliceblue;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
+
+/*Columns - Main Section*/
+#main_section {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+/*Column - Left Section*/
+#left_col {
+    flex: 3;
+    border: 3px solid rgb(62, 65, 67);
+}
+
+.profile_card_avatar {
+    border: 2px solid black;
+}
+
+.banner_1 {
+    background-color: darkturquoise;
+    height: 120px;
+}
+
+.me {
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h1{
+    font-size: 24pt;
+    margin-top: 50px;
+}
+
+.profile_icons {
+    height: 35px;
+}
+
+.location {
+    padding: 20px;
+}
+
+/*Profile Education*/
+#education {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#education_header {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(62, 65, 67);
+}
+
+h2 {
+    font-size: 22px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.coding_dojo {
+    display: flex;
+    padding: 20px;
+}
+ul {
+    font-size: 20pt;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+/*Column - Right Section*/
+#right_col {
+    flex: 2;
+    border: 3px solid rgb(62, 65, 67);
+}
+
+#right_col img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+/*Both Circle Counts on Right Side*/
+#right_col p {
+    display: flex;
+    margin: 0px 10px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+h2 {
+    display: flex;
+    list-style-type: none;
+}
+
+h3  {
+    display: flex;
+}
+
+#grey_border {
+    justify-content: space-around;
+}
+
+#connection_requests {
+    border: 2px solid rgb(62, 65, 67);
+}
+
+#connection_header {
+    display: flex;
+    background-color:  rgb(62, 65, 67);
+    padding: 10px;
+}
+
+.request_todd {
+    display: flex;
+    padding: 10px;
+}
+
+.request_phil {
+    display: flex;
+    padding: 10px;
+}
+
+.accept_decline {
+    display: flex;
+    padding: 10px;
+}
+
+#your_connections {
+    border: 2px solid rgb(62, 65, 67);
+}
+
+#contacts_header {
+    display: flex;
+    background-color: rgb(62, 65, 67);
+    padding: 5px;
+}
+
+.contact {
+    display: flex;
+    padding: 10px;
+}
