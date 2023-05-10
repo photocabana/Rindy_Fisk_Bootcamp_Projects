@@ -1,0 +1,94 @@
+- variable declaration #Python has no command for declaring a variable. A variable is created the moment you first assign a value to it. Variables do not need to be declared with any particular type, and can even change type after they have been set.
+
+- log statement # is a means of tracking events that happen when some software runs.
+
+- type check #Python is both a strongly and dynamically typed programming language. This means that any variable can take on any data type at any time (this is dynamically typed), but once a variable is assigned with a type, it can not change in unexpected ways.
+
+- length check #len() method is used to calculate the length of a string in Python
+
+- comment  #is the inclusion of short descriptions along with the code to increase its readability. A developer uses them to write his or her thought process while writing the code. It explains the basic logic behind why a particular line of code was written. A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code
+
+    - single line #Comments starts with a #, and Python will ignore them. Comments can be placed at the end of a line, and Python will ignore the rest of the line
+
+    - multiline  #Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it
+
+- Data Types
+
+    - Primitive #Primitive data structures can only store one type of data. Also, primitive data structures need to contain some type of value and the size depends on the type of data structure. Python has 4 built-in data structures, Integers, Float, String, Booleen
+
+        - Boolean  # Bool Holds either True or False
+       
+        - Numbers  # int, float, complex  Holds numeric values - int - holds signed integers of non-limited length. float - holds floating decimal points and it's accurate up to 15 decimal places. complex - holds complex numbers.
+        
+        - Strings  # str  holds sequence of characters represented by either single or double quotes. a string is a collection of alphabets, characters, or words. While it’s one of the most primitive of data structures, it’s also vital to data manipulation. Python has a built-in string class known as str, which is immutable.
+   
+    - Composite  #is a structural design pattern that allows composing objects into a tree-like structure and work with the it as if it was a singular object.
+
+        - List #is a data type, that stores a collection of different objects (items) within a square bracket([]). Each item in a list is separated by a comma(,) with the first item at index 0.
+
+            - initialize
+            - access value
+            - change value
+            - add value
+            - delete value
+
+        - Tuples  #Tuple is an ordered sequence of items same as a list. The only difference is that tuples are immutable. Tuples once created cannot be modified.
+
+            - initialize
+            - access value
+            - change value
+            - add value
+            - delete value
+
+        - Dictionary  # is an unordered sequence of data of key-value pair form. It is similar to the hash table type. Dictionaries are written within curly braces in the form key:value. It is very useful to retrieve data in an optimized way among a large amount of data.
+
+            - initialize
+            - access value
+            - change value
+            - add value
+            - delete value
+
+- conditional  #The if-elif-else statement is used to conditionally execute a statement or a block of statements. Conditions can be true or false, execute one thing when the condition is true, something else when the condition is false.
+
+    - if #It executes a set of statements conditionally, based on the value of a logical expression.
+
+    - else if  #The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
+
+    - else  #The else keyword catches anything which isn't caught by the preceding conditions.
+
+- for loop #A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages. With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+
+    - start
+    - stop
+    - increment
+    - break
+    - continue
+    - sequence
+
+- while loop  #With the while loop we can execute a set of statements as long as a condition is true.
+
+    - start
+    - stop
+    - increment
+
+- function  #A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.
+
+    - parameter  #A parameter is the variable listed inside the parentheses in the function definition.
+
+    - argument  #An argument is the value that is sent to the function when it is called.
+
+    - return  #To let a function return a value, result
+
+* Bonus: Errors
+
+- NameError: name <variable name> is not defined
+- TypeError: 'tuple' object does not support item assignment
+- KeyError: 'favorite_team'
+- IndexError: list index out of range
+- IndentationError: unexpected indent
+- AttributeError: 'tuple' object has no attribute 'pop'
+- AttributeError: 'tuple' object has no attribute 'append'
+- Tuples
+    - change value
+    - add value
+    - delete value
