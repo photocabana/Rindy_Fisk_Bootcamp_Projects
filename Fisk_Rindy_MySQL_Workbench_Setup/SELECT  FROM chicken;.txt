@@ -1,0 +1,4 @@
+SELECT * FROM chicken;
+
+INSERT INTO chicken_hut (chicken)
+VALUES ("rooster"), ("hen"), ("chicks");
